@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1D84942B9CC523001346A3 /* Taylor_AI_ArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D84932B9CC523001346A3 /* Taylor_AI_ArtApp.swift */; };
+		AA1D84962B9CC523001346A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D84952B9CC523001346A3 /* ContentView.swift */; };
+		AA1D84982B9CC524001346A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1D84972B9CC524001346A3 /* Assets.xcassets */; };
+		AA1D849C2B9CC524001346A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1D849B2B9CC524001346A3 /* Preview Assets.xcassets */; };
+		AA1D84A62B9CC524001346A3 /* Taylor_AI_ArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D84A52B9CC524001346A3 /* Taylor_AI_ArtTests.swift */; };
+		AA1D84B02B9CC524001346A3 /* Taylor_AI_ArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D84AF2B9CC524001346A3 /* Taylor_AI_ArtUITests.swift */; };
+		AA1D84B22B9CC524001346A3 /* Taylor_AI_ArtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D84B12B9CC524001346A3 /* Taylor_AI_ArtUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1D84A22B9CC524001346A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1D84882B9CC523001346A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1D848F2B9CC523001346A3;
+			remoteInfo = "Taylor AI Art";
+		};
+		AA1D84AC2B9CC524001346A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1D84882B9CC523001346A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1D848F2B9CC523001346A3;
+			remoteInfo = "Taylor AI Art";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1D84902B9CC523001346A3 /* Taylor AI Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taylor AI Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1D84932B9CC523001346A3 /* Taylor_AI_ArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor_AI_ArtApp.swift; sourceTree = "<group>"; };
+		AA1D84952B9CC523001346A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA1D84972B9CC524001346A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1D84992B9CC524001346A3 /* Taylor_AI_Art.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taylor_AI_Art.entitlements; sourceTree = "<group>"; };
+		AA1D849B2B9CC524001346A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA1D84A12B9CC524001346A3 /* Taylor AI ArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taylor AI ArtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1D84A52B9CC524001346A3 /* Taylor_AI_ArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor_AI_ArtTests.swift; sourceTree = "<group>"; };
+		AA1D84AB2B9CC524001346A3 /* Taylor AI ArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taylor AI ArtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1D84AF2B9CC524001346A3 /* Taylor_AI_ArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor_AI_ArtUITests.swift; sourceTree = "<group>"; };
+		AA1D84B12B9CC524001346A3 /* Taylor_AI_ArtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor_AI_ArtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1D848D2B9CC523001346A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D849E2B9CC524001346A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D84A82B9CC524001346A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1D84872B9CC523001346A3 = {
+			isa = PBXGroup;
+			children = (
+				AA1D84922B9CC523001346A3 /* Taylor AI Art */,
+				AA1D84A42B9CC524001346A3 /* Taylor AI ArtTests */,
+				AA1D84AE2B9CC524001346A3 /* Taylor AI ArtUITests */,
+				AA1D84912B9CC523001346A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1D84912B9CC523001346A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D84902B9CC523001346A3 /* Taylor AI Art.app */,
+				AA1D84A12B9CC524001346A3 /* Taylor AI ArtTests.xctest */,
+				AA1D84AB2B9CC524001346A3 /* Taylor AI ArtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1D84922B9CC523001346A3 /* Taylor AI Art */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D84932B9CC523001346A3 /* Taylor_AI_ArtApp.swift */,
+				AA1D84952B9CC523001346A3 /* ContentView.swift */,
+				AA1D84972B9CC524001346A3 /* Assets.xcassets */,
+				AA1D84992B9CC524001346A3 /* Taylor_AI_Art.entitlements */,
+				AA1D849A2B9CC524001346A3 /* Preview Content */,
+			);
+			path = "Taylor AI Art";
+			sourceTree = "<group>";
+		};
+		AA1D849A2B9CC524001346A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D849B2B9CC524001346A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA1D84A42B9CC524001346A3 /* Taylor AI ArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D84A52B9CC524001346A3 /* Taylor_AI_ArtTests.swift */,
+			);
+			path = "Taylor AI ArtTests";
+			sourceTree = "<group>";
+		};
+		AA1D84AE2B9CC524001346A3 /* Taylor AI ArtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D84AF2B9CC524001346A3 /* Taylor_AI_ArtUITests.swift */,
+				AA1D84B12B9CC524001346A3 /* Taylor_AI_ArtUITestsLaunchTests.swift */,
+			);
+			path = "Taylor AI ArtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1D848F2B9CC523001346A3 /* Taylor AI Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1D84B52B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI Art" */;
+			buildPhases = (
+				AA1D848C2B9CC523001346A3 /* Sources */,
+				AA1D848D2B9CC523001346A3 /* Frameworks */,
+				AA1D848E2B9CC523001346A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taylor AI Art";
+			productName = "Taylor AI Art";
+			productReference = AA1D84902B9CC523001346A3 /* Taylor AI Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1D84A02B9CC524001346A3 /* Taylor AI ArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1D84B82B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI ArtTests" */;
+			buildPhases = (
+				AA1D849D2B9CC524001346A3 /* Sources */,
+				AA1D849E2B9CC524001346A3 /* Frameworks */,
+				AA1D849F2B9CC524001346A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1D84A32B9CC524001346A3 /* PBXTargetDependency */,
+			);
+			name = "Taylor AI ArtTests";
+			productName = "Taylor AI ArtTests";
+			productReference = AA1D84A12B9CC524001346A3 /* Taylor AI ArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA1D84AA2B9CC524001346A3 /* Taylor AI ArtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1D84BB2B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI ArtUITests" */;
+			buildPhases = (
+				AA1D84A72B9CC524001346A3 /* Sources */,
+				AA1D84A82B9CC524001346A3 /* Frameworks */,
+				AA1D84A92B9CC524001346A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1D84AD2B9CC524001346A3 /* PBXTargetDependency */,
+			);
+			name = "Taylor AI ArtUITests";
+			productName = "Taylor AI ArtUITests";
+			productReference = AA1D84AB2B9CC524001346A3 /* Taylor AI ArtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1D84882B9CC523001346A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AA1D848F2B9CC523001346A3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AA1D84A02B9CC524001346A3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AA1D848F2B9CC523001346A3;
+					};
+					AA1D84AA2B9CC524001346A3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AA1D848F2B9CC523001346A3;
+					};
+				};
+			};
+			buildConfigurationList = AA1D848B2B9CC523001346A3 /* Build configuration list for PBXProject "Taylor AI Art" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1D84872B9CC523001346A3;
+			productRefGroup = AA1D84912B9CC523001346A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1D848F2B9CC523001346A3 /* Taylor AI Art */,
+				AA1D84A02B9CC524001346A3 /* Taylor AI ArtTests */,
+				AA1D84AA2B9CC524001346A3 /* Taylor AI ArtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1D848E2B9CC523001346A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D849C2B9CC524001346A3 /* Preview Assets.xcassets in Resources */,
+				AA1D84982B9CC524001346A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D849F2B9CC524001346A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D84A92B9CC524001346A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1D848C2B9CC523001346A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D84962B9CC523001346A3 /* ContentView.swift in Sources */,
+				AA1D84942B9CC523001346A3 /* Taylor_AI_ArtApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D849D2B9CC524001346A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D84A62B9CC524001346A3 /* Taylor_AI_ArtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1D84A72B9CC524001346A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D84B02B9CC524001346A3 /* Taylor_AI_ArtUITests.swift in Sources */,
+				AA1D84B22B9CC524001346A3 /* Taylor_AI_ArtUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1D84A32B9CC524001346A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1D848F2B9CC523001346A3 /* Taylor AI Art */;
+			targetProxy = AA1D84A22B9CC524001346A3 /* PBXContainerItemProxy */;
+		};
+		AA1D84AD2B9CC524001346A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1D848F2B9CC523001346A3 /* Taylor AI Art */;
+			targetProxy = AA1D84AC2B9CC524001346A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA1D84B32B9CC524001346A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1D84B42B9CC524001346A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA1D84B62B9CC524001346A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Taylor AI Art/Taylor_AI_Art.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taylor AI Art/Preview Content\"";
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1D84B72B9CC524001346A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Taylor AI Art/Taylor_AI_Art.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taylor AI Art/Preview Content\"";
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA1D84B92B9CC524001346A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taylor AI Art.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taylor AI Art";
+			};
+			name = Debug;
+		};
+		AA1D84BA2B9CC524001346A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taylor AI Art.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taylor AI Art";
+			};
+			name = Release;
+		};
+		AA1D84BC2B9CC524001346A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taylor AI Art";
+			};
+			name = Debug;
+		};
+		AA1D84BD2B9CC524001346A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LAM8QVRCN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FusionPowered.Taylor-AI-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taylor AI Art";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1D848B2B9CC523001346A3 /* Build configuration list for PBXProject "Taylor AI Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D84B32B9CC524001346A3 /* Debug */,
+				AA1D84B42B9CC524001346A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1D84B52B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D84B62B9CC524001346A3 /* Debug */,
+				AA1D84B72B9CC524001346A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1D84B82B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI ArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D84B92B9CC524001346A3 /* Debug */,
+				AA1D84BA2B9CC524001346A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1D84BB2B9CC524001346A3 /* Build configuration list for PBXNativeTarget "Taylor AI ArtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D84BC2B9CC524001346A3 /* Debug */,
+				AA1D84BD2B9CC524001346A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1D84882B9CC523001346A3 /* Project object */;
+}
